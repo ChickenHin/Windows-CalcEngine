@@ -1,6 +1,6 @@
 name: Latest Ubuntu
 
-on: [ push, pull_request ]
+on: [ workflow_dispatch ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
